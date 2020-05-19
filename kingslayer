@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY SCHOOL FORM </title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="container">
+                <h1>FORM</h1>
+            </div>
+        </header>
 
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+                <Form action="proceess.php" method="POST">
+                    <div>
+                        <label>First Name</label>
+                        <input type="text" name="first-name" placeholder="sir name">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Second Name</label>
+                        <input type="text" name="Second-name">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Other Name</label>
+                        <input type="text" name="Other-name">
+                    </div>
+                    <br>
+                    <div>
+                        <label>High School</label>
+                        <input type="text" name="high-school" placeholder="Mengo ss">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="kluivertssali@gmail.com">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Age</label>
+                        <input type="number" name="Age" value="30">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Gender</label>
+                        <select name="gender">
+                            <option value="male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Birthday:</label>
+                        <input type="date" name="birthday">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Level of Education</label>
+                        <input type="text" name="level-of-education">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Comment</label>
+                        <textarea name="comment" placeholder="would you like us to make some changes,What are those changes?"></textarea>
+                    </div>
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" value="submit">
+                </Form>
+                <button>Help</button>
+                <br>
+                <h1 style="color:yellow;text-align: center;">Thank you for using My school App</h1>
+                <br>
+                <footer id="main-footer">
+                    <p>copy right &copy; 2020 My form</p>
+                    <p style="color:whitesmoke;text-align: end;">coded with Love by kluivertssali</p>
+                </footer>
+
+                 
+            
+        
+
+    </body>
+</html>
